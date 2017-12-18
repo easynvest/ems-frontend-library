@@ -1,0 +1,32 @@
+.ems-select {
+  border-bottom: 1px solid $medium-gray;
+  display: block;
+  position: relative;
+  padding-bottom: 7px;
+
+  &:after {
+    content: "";
+    width: 10px;
+    height: 7px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    background: url(../images/arrow.svg) no-repeat;
+    
+  }
+
+  select {
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    display: block;
+    font-size: .875rem;
+    position: relative;
+    z-index: 1;
+  }
+
+}
