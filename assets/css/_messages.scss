@@ -5,6 +5,11 @@
   display: flex;
   align-content: center;
   align-items: center;
+  display: none;
+  
+  &.ems-is-active {
+    display: flex;
+  }
 
   &:before {
     content: "";

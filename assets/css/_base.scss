@@ -9,6 +9,10 @@ body {
   background: $light-gray;
   color: $gray;
 }
+html, body {
+  height: 100%;
+  min-height: 100%;  
+}
 
 /////
 // Structure of Sidebar and Content
@@ -22,10 +26,15 @@ body {
 #ems-sidebar-parent,
 #ems-content {
   flex: 1;
+  height: 100%;
 }
 
 #ems-content-inner {
   padding: 31px 40px;
+}
+
+#ems-content {
+  overflow: auto;
 }
 
 .ems-msg {
