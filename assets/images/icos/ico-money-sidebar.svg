@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu-Tesouro" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-20.000000, -124.000000)">
+        <g id="Group-6" transform="translate(21.000000, 123.000000)">
+            <g id="Group-2" transform="translate(0.000000, 2.000000)">
+                <g id="Group-3">
+                    <circle id="Oval" stroke="#FFFFFF" stroke-width="0.633864" cx="7.5" cy="7.5" r="7.5"></circle>
+                    <text id="$" font-family="Verdana" font-size="9" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="4.8957391" y="11.25">$</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

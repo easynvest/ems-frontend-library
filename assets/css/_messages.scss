@@ -1,0 +1,24 @@
+.ems-message {
+  background: $yellow;
+  padding: 17px;
+  padding-left: 50px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+
+  &:before {
+    content: "";
+    width: 28px;
+    height: 25px;
+    background: url(../images/alert.svg) no-repeat;
+    background-size: contain;
+    display: block;
+    float: left;
+  }
+
+  p {
+    flex: 1;
+    margin-left: 10px;
+  }
+
+}

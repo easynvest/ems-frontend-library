@@ -1,0 +1,19 @@
+#ems-avatar-sidebar {
+  text-align: center;
+  padding-top: 140px;
+  padding: 140px 10px 0;
+
+  .ems-avatar-name {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+  }
+
+  img {
+    border-radius: 100%;
+    max-width: 62px;
+    border: 1px solid $light-gray;
+  }
+
+}

@@ -1,0 +1,35 @@
+.ems-table {
+  text-align: left;
+  margin: 10px;
+  width: 100%;
+
+  td, th {
+    text-align: center;
+    &:first-child {
+      text-align: left;
+    }
+  }
+
+  tbody {
+    th, td {
+      padding: 15px;
+    }
+
+    td {
+      border-bottom: 1px solid $light-gray;
+    }
+
+  }
+
+  thead th {
+    font-weight: normal;
+    padding: 0 15px 20px;
+  }
+
+  .ems-table-title th {
+    padding-bottom: 10px;
+    padding-top: 50px;
+    border-bottom: 1px solid $medium-gray;
+  }
+  tbody .ems-table-title:first-child th {padding-top: 0;}
+}

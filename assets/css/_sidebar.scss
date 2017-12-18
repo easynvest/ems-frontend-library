@@ -1,0 +1,109 @@
+#ems-sidebar-parent {
+  background: #333;
+  max-width: 225px;
+}
+
+.ems-sidebar {
+  padding: 30px 0;
+}
+
+.ems-logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+
+  img {
+    max-width: 28px;
+  }
+
+}
+
+.ems-sidebar-menu {
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    display: block;
+  }
+
+  ul li a {
+    display: block;
+    font: 1rem $font-family;
+    padding: 12px 0;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  & > ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }  
+
+  & [class*="ems-ico-"]:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+  }
+
+  & > ul li > ul a {
+    padding-left: 44px;
+    font-size: .87rem;
+    border-left: 2px solid transparent;
+    transition: border-left linear .15s;
+
+    &.ems-is-active, &:hover {
+      border-left: 2px solid $blue;
+    }
+  }
+
+}
+
+.ems-ico-signup:before {background-image: url(../images/icos/ico-signup-sidebar.svg);}
+.ems-ico-money:before {background-image: url(../images/icos/ico-money-sidebar.svg);}
+
+.ems-submenu-parent > a:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 6px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -4px;
+  background-image: url(../images/arrow-sidebar.svg);
+}
+
+.ems-submenu-parent.ems-is-active > a:after {
+  transform: rotate(180deg)
+}
+
+.ems-sandwich {
+  display: none
+}
+
+@media #{$break-mobile} {
+  .ems-sandwich {
+    display:  block;
+    background: url(../images/sandwich.png) no-repeat;
+    height: 15px; 
+    width: 100%;
+    max-width: 20px;
+    background-size: contain;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  #ems-sidebar-parent {
+    transform: translateX(-100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}

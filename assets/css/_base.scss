@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% $font-family;
+  background: $light-gray;
+  color: $gray;
+}
+
+/////
+// Structure of Sidebar and Content
+/////
+#ems-main {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#ems-sidebar-parent,
+#ems-content {
+  flex: 1;
+}
+
+#ems-content-inner {
+  padding: 31px 40px;
+}
+
+.ems-msg {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.ems-white-box {
+  background: #fff;
+  padding: 10px;
+}
+
+@media #{$break-mobile} {
+  #ems-main {
+    display: block;
+  }
+  #ems-content-inner {
+    padding: 20px;
+  }
+}

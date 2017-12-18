@@ -1,0 +1,34 @@
+.ems-boxes {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ems-box-info {
+  @extend .ems-white-box;
+  flex: 1 0 120px;
+  flex-wrap: wrap;
+  margin-right: 20px;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 1rem;
+
+  span {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@media #{$break-mobile} {
+  .ems-boxes {
+    display: block;
+  }
+  .ems-box-info {
+    margin: 0 0 10px;
+    display: block;
+    width: 100%;
+  }
+}

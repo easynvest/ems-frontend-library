@@ -1,0 +1,28 @@
+////
+// Fonts
+////
+$font-family: Verdana, Arial, tahoma, Sans-serif;
+
+////
+// Colors
+////
+$gray: #333;
+$medium-gray: #999;
+$light-gray: #eee;
+$blue: #4A90E2;
+$dark-blue: #4D4289;
+$green: #00C8B3;
+$red: #EB4A40;
+$yellow: #FFBB00;
+
+////
+// Breakpoints
+////
+$break-mobile: "screen and (max-width: 850px)";
+
+
+////
+// Classes
+////
+.ems-color-green {color: $green;}
+.ems-color-red {color: $red;}

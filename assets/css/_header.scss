@@ -1,0 +1,59 @@
+#ems-header {
+  background: #fff;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.50);
+
+  .ems-select {
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+}
+
+.ems-page-title {
+  padding: 60px 0 0 50px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.ems-header-menu {
+  padding-top: 40px;
+  padding: 40px 0 0 48px;
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  a {
+    font-size: 1.25rem;
+    color: #333;
+    letter-spacing: 0;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 0 3px 15px 3px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    transition: border linear .15s;
+
+    &.ems-is-active, &:hover {
+      border-bottom-color: $blue;
+    }
+    &.ems-is-active {
+      font-weight: bold;
+    }
+    
+  }
+
+}
+
+@media #{$break-mobile} {
+  #ems-header {
+    .ems-select {
+      float: none;
+      margin-left: 50px;
+    }
+  }
+}

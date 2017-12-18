@@ -1,0 +1,25 @@
+.ems-btn {
+  background: $green;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-decoration: none;
+  padding: 13px 30px;
+  display: block;
+}
+
+.ems-btn-logout {
+  border: 1px solid $blue;
+  color: $blue;
+  text-decoration: none;
+  text-align: center;
+  font-size: .87rem;
+  border-radius: 50%;
+  letter-spacing: 0;
+  border-radius: 100px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 2px 13px;
+}
