@@ -1,4 +1,4 @@
 .sass-cache/
 *.css.map
 .DS_Store
-assets/css/all.css
+all.css
