@@ -9,6 +9,8 @@
   position: fixed;
   top: 0;
   height: 100%;
+  width: 100%;
+  max-width: 225px;
 }
 
 .ems-logo {
@@ -37,9 +39,10 @@
     padding: 12px 0;
     color: #fff;
     text-decoration: none;
-    transition: opacity linear .15s;
+    transition: all linear .15s;
+    border-left: 2px solid transparent;
 
-    &:hover {
+    &.ems-is-active, &:hover {
       opacity: .8;
       background: rgba(255, 255, 255, .05);
       border-left: 2px solid $blue;
@@ -49,7 +52,6 @@
   & > ul li a {
     padding-left: 20px;
     padding-right: 20px;
-    transition: opacity linear .15s;
     position: relative;
 
     &:hover {
@@ -68,14 +70,8 @@
   }
 
   & > ul li > ul a {
-    padding-left: 44px;
+    padding-left: 46px;
     font-size: .87rem;
-    border-left: 2px solid transparent;
-    transition: border-left linear .15s;
-
-    &.ems-is-active, &:hover {
-      border-left: 2px solid $blue;
-    }
   }
 
 }
