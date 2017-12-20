@@ -44,7 +44,24 @@ html, body {
 
 .ems-white-box {
   background: #fff;
-  padding: 10px;
+  margin: 0;
+  border-radius: 3px;
+}
+.ems-white-box + .ems-white-box {
+  border-top: 1px solid $light-gray;
+}
+
+[class*="col-"] .ems-white-box {
+  margin: 0 10px;
+}
+
+.ems-hr {
+  background: none;
+  border: none;
+  height: 1px;
+  width: 100%;
+  display: block;
+  border-top: 1px solid $light-gray;
 }
 
 @media #{$break-mobile} {

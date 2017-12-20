@@ -1,6 +1,7 @@
 .ems-table {
   text-align: left;
   width: 100%;
+  padding: 10px;
 
   td, th {
     text-align: center;
@@ -16,6 +17,10 @@
 
     td {
       border-bottom: 1px solid $light-gray;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
     }
 
   }
